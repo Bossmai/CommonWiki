@@ -9,5 +9,3 @@ ${ADB_HOME}/adb shell chmod 777 /system
 ${ADB_HOME}/adb push ./lib/busybox /mnt/sdcard/busybox
 ${ADB_HOME}/adb shell cp /mnt/sdcard/busybox /system/xbin/
 ${ADB_HOME}/adb shell chmod 4755 /system/xbin/busybox
-
-${ADB_HOME}/adb push ./lib/tools /mnt/sdcard/

@@ -1,3 +1,4 @@
+#!/bin/bash
 ADB_HOME=~/Library/Android/sdk/platform-tools
 
 ${ADB_HOME}/adb root
